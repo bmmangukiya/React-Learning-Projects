@@ -1,0 +1,16 @@
+{
+  "streams": [
+    {
+      "title": "NEW STREAM",
+      "description": "THIS IS NEW STREAM.",
+      "userId": "101402409304919316457",
+      "id": 1
+    },
+    {
+      "title": "Bansi Test Stream",
+      "description": "This is for testing.",
+      "userId": "100287829271346498271",
+      "id": 2
+    }
+  ]
+}

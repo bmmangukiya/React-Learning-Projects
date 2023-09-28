@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    
+        
+        {
+            "name": "Launch localhost",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/public/index.htm",
+            "skipFiles": [
+                "${workspaceFolder}/node_modules/**/*.js",
+                "<node_internals>/**/*.js"
+            ],
+            "pathMappings": [
+
+                {
+                    "url": "file:///C:/react/blog/src",
+                    "path": "${workspaceFolder}/src/index.js"
+                }
+            ]
+        }
+    ]
+}
